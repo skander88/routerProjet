@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.mesfilms{
+  display: flex;
+  justify-content: space-between;
+}
+.bodyy{
+  background-color: rgb(14, 13, 13);
+  
+}
+.movieListContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px;
+}
+.form{
+  background-color: #0c0e10;
+}
+.h11{
+  color: red;
+}
+.image{
+  width: 30px;
+  height: 360px;
+}
+.trai{
+color: red;
+}
+.trai2{
+color: navy;
+}
+.ktiba{
+  color: white;
+}
+.traicont{
+background-color: black;
+}
