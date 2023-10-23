@@ -1,15 +1,16 @@
 import { v4 as uuidv4 } from "uuid";
+
 const MovieData = [
   {
     id: uuidv4(),
     Title: "Annabelle",
     Description: "Horror",
     Filmdescription:
-      "John Form (Ward Horton) thinks he's found the perfect gift for his expectant wife, Mia (Annabelle Wallis) : a vintage doll in a beautiful white dress. However, the couple's delight doesn't last long: One terrible night, devil worshippers invade their home and launch a violent attack against the couple.",
+      "John Form (Ward Horton) thinks he's found the perfect gift for his expectant wife, Mia (Annabelle Wallis): a vintage doll in a beautiful white dress. However, the couple's delight doesn't last long: One terrible night, devil worshippers invade their home and launch a violent attack against the couple.",
     PosterURL:
       "https://assets1.ignimgs.com/2019/05/28/annabelle-comes-home-ver2-poster-button-1559085417970.jpg",
     Rating: 7,
-    Trailer: "https://www.youtube.com/watch?v=paFgQNPGlsg",
+    Trailer: "https://www.youtube.com/embed/paFgQNPGlsg?si=CjoHM2s0HBW6Qg0t",
   },
   {
     id: uuidv4(),
@@ -20,7 +21,7 @@ const MovieData = [
     PosterURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZnWQV-_lMvTFXrQbrgpu8y1j6qaeouFqKzQ&usqp=CAU",
     Rating: 9.5,
-    Trailer: "https://www.youtube.com/watch?v=e5wUilOeOmg",
+    Trailer: "https://www.youtube.com/embed/e5wUilOeOmg?si=xjbRh9h4LziwMQW2",
   },
   {
     id: uuidv4(),
@@ -31,7 +32,7 @@ const MovieData = [
     PosterURL:
       "https://upload.wikimedia.org/wikipedia/en/d/d4/Ted_%28film%29.png",
     Rating: 8,
-    Trailer: "https://www.youtube.com/watch?v=9fbo_pQvU7M",
+    Trailer: "https://www.youtube.com/embed/9fbo_pQvU7M?si=j5VTo_qulmkHqrTY",
   },
   {
     id: uuidv4(),
@@ -42,7 +43,8 @@ const MovieData = [
     PosterURL:
       "https://m.media-amazon.com/images/I/61KPF16khwS._AC_UF1000,1000_QL80_.jpg",
     Rating: 6,
-    Trailer: "https://www.youtube.com/watch?v=2QKg5SZ_35I",
+    Trailer: "https://www.youtube.com/embed/2QKg5SZ_35I?si=o4GRfdpITLiS5sfX",
   },
 ];
+
 export default MovieData;
